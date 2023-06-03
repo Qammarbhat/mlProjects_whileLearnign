@@ -104,4 +104,3 @@ print(f"cost of 1200 sqft is : {cost_1200sqft} thousand Dollars")
 
 
 
-
