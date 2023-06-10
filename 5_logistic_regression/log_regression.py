@@ -21,3 +21,8 @@ model.fit(X_train, y_train)
 
 print(model.predict(X_test))
 print(model.score(X_test, y_test))
+
+from sklearn import datasets
+
+data_set = datasets.load_breast_cancer()
+print(data_set.feature_names)
